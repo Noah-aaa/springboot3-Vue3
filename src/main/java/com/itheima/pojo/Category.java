@@ -1,5 +1,10 @@
 package com.itheima.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.groups.Default;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -11,15 +16,27 @@ import java.util.Date;
  **/
 @Data
 public class Category {
+    @NotNull(groups = Update.class) // 不能不传 groups 自定义分组。group是一个数组，可以指定多个分组
     private Integer id;
+    @NotEmpty
     private String categoryName;
+    @NotEmpty // 不能不传，且传过来的不能是字符串
     private String categoryAlias;
-    private String createUser;
-    private LocalDateTime creatTime;
+    private int createUser;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime createTime;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime updateTime;
 
+    // 自定义分组接口，继承默认分组如果属性上没有group属性，就是default分组
+    public interface Update extends Default {
+
+    }
+    public interface Add extends  Default{
+
+    }
     public void setCreatTime(LocalDateTime creatTime) {
-        this.creatTime = creatTime;
+        this.createTime = creatTime;
     }
 
     public void setUpdateTime(LocalDateTime updateTime) {
@@ -50,11 +67,11 @@ public class Category {
         this.categoryAlias = categoryAlias;
     }
 
-    public String getCreateUser() {
+    public int getCreateUser() {
         return createUser;
     }
 
-    public void setCreateUser(String createUser) {
+    public void setCreateUser(int createUser) {
         this.createUser = createUser;
     }
 
@@ -66,7 +83,7 @@ public class Category {
                 ", categoryName='" + categoryName + '\'' +
                 ", categoryAlias='" + categoryAlias + '\'' +
                 ", createUser='" + createUser + '\'' +
-                ", creatTime=" + creatTime +
+                ", creatTime=" + createTime +
                 ", updateTime=" + updateTime +
                 '}';
     }

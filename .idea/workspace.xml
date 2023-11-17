@@ -52,16 +52,17 @@
       <change afterPath="$PROJECT_DIR$/../AlgorithmExperiment/out/production/AlgorithmExperiment/AlgorithmExperiment.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../atguigu-spring.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../atguigu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/utils/ThreadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/TestTreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/utils/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/utils/ThreadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/TestTreadLocal.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-first.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-ioc-xml.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-jdbc-tx.iml" afterDir="false" />
@@ -344,6 +345,29 @@
       <change afterPath="$PROJECT_DIR$/../ssm-mybatis-part/mybatis-high-dymysql-06/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssm-mybatis-part/mybatis-high-multitable-05/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssm-mybatis-part/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b55fac3-5c8e-4d3f-b091-db30fe99135c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b55fac3-5c8e-4d3f-b091-db30fe99135c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/pojo/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/pojo/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,6 +378,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -395,6 +421,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;a42526bb590a98916e51a8dba896ceca&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -406,11 +433,27 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.mapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\WorkSpace\bigEvent\src\main\java\com\itheima\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.Demo" />
+      <module name="bigEvent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JwtTest.testGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bigEvent" />
       <extension name="coverage">
@@ -443,6 +486,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTreadLocal.testTreadLocalandSetandGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bigEvent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.TestTreadLocal" />
+      <option name="METHOD_NAME" value="testTreadLocalandSetandGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="bigEvent" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.App" />
@@ -452,6 +511,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Demo" />
+        <item itemvalue="JUnit.TestTreadLocal.testTreadLocalandSetandGet" />
         <item itemvalue="JUnit.JwtTest.testParse" />
         <item itemvalue="JUnit.JwtTest.testGen" />
       </list>
@@ -471,7 +532,11 @@
       <workItem from="1699788132303" duration="6020000" />
       <workItem from="1699794176092" duration="4891000" />
       <workItem from="1699842718913" duration="5212000" />
-      <workItem from="1699955999665" duration="40000" />
+      <workItem from="1699955999665" duration="13735000" />
+      <workItem from="1700054305798" duration="789000" />
+      <workItem from="1700058741477" duration="1200000" />
+      <workItem from="1700098900619" duration="21640000" />
+      <workItem from="1700138888663" duration="8439000" />
     </task>
     <servers />
   </component>
